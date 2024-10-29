@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "PromptSaver",
+    "version": "1.1",
+    "description": "ChatGPTのプロンプト保存として利用できる。ちょっとしたメモ保存としても利用可！",
+    "permissions": ["storage", "contextMenus"],
+    "action": {
+        "default_icon": {
+            "16": "images/icon16.png",
+            "48": "images/icon48.png",
+            "128": "images/icon128.png"
+        },
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "js/background.js"
+    },
+    "icons": {
+        "48": "image/icon.png"
+    }
+}
